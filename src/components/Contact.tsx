@@ -5,7 +5,7 @@ import { BsTelephoneInboundFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div id='contact' className='pt-32 container'>
+    <div id="contact" className='pt-32 container'>
     <div className='grid md:grid-cols-2 gap-10'>
      <div className='space-y-8'>
         <h2 className='text-5xl' data-aos="flip-right">Get in Touch</h2>
@@ -23,7 +23,7 @@ const Contact = () => {
         href="https://www.linkedin.com/in/zeenat-yameen-0168a829b"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center px-4 py-2 bg-blue-700 text-white font-semibold rounded hover:bg-green-600 transition"
+        className='inline-flex items-center px-4 py-2 bg-blue-700 text-white font-semibold rounded hover:bg-green-600 transition'
         data-aos="flip-right">
         <span>Connect with me on LinkedIn</span>
       </a>

@@ -13,11 +13,11 @@ const Navbar = () => {
         <div className='flex justify-between items-center place-item-center'>
             <div className='text-xl font-medium' data-aos="flip-right">Personal-Portfolio</div>
             <ul className="flex space-x-4 ml-auto gap-10 lg:gap-16 hidden font-bold md:flex ${menuOpen ? 'block' : 'hidden'} md:flex font-bold`}>">
-                <li className='menuLink'><a href='#hero'>Home</a></li>
-                <li className='menuLink'><a href='#about'>About</a></li>
-                <li className='menuLink'><a href='#projects'>Projects</a></li>
-                <li className='menuLink'><a href='#skills'>Skills</a></li>
-                <li className='menuLink'><a href='#contact'>Contact</a></li>
+                <li className='menuLink'><a href="#hero">Home</a></li>
+                <li className='menuLink'><a href="#about">About</a></li>
+                <li className='menuLink'><a href="#projects">Projects</a></li>
+                <li className='menuLink'><a href="#skills">Skills</a></li>
+                <li className='menuLink'><a href="#contact">Contact</a></li>
             </ul>
             
             <button aria-label="Menu" className='md:hidden' onClick={toggleMenu}>
@@ -26,12 +26,12 @@ const Navbar = () => {
 
            </div>
            {menuOpen && (
-        <ul className="flex flex-col mt-4 md:hidden font-bold">
-          <li className='menuLink'><a href='#hero'>Home</a></li>
-          <li className='menuLink'><a href='#about'>About</a></li>
-          <li className='menuLink'><a href='#projects'>Projects</a></li>
-          <li className='menuLink'><a href='#skills'>Skills</a></li>
-          <li className='menuLink'><a href='#contact'>Contact</a></li>
+        <ul className='flex flex-col mt-4 md:hidden font-bold'>
+          <li className='menuLink'><a href="#hero">Home</a></li>
+          <li className='menuLink'><a href="#about">About</a></li>
+          <li className='menuLink'><a href="#projects">Projects</a></li>
+          <li className='menuLink'><a href="#skills">Skills</a></li>
+          <li className='menuLink'><a href="#contact">Contact</a></li>
         </ul>
 )}
 </div>

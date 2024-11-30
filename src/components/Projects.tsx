@@ -80,17 +80,17 @@ const data = [
 
 const Projects = () => {
   return (
-    <div id='projects' className='container pt-32' data-aos="flip-right">
-      <Heading title='My Projects' />
-      <div className="flex justify-center">
+    <div id="projects" className='container pt-32' data-aos="flip-right">
+      <Heading title="My Projects"/>
+      <div className='flex justify-center'>
   <a
     rel="noopener noreferrer"
     href="https://github.com/Zistaza"
     target="_blank"
-    className="inline-flex items-center px-4 py-2 bg-slate-700 text-white font-semibold rounded hover:bg-yellow-800 transition"
+    className='inline-flex items-center px-4 py-2 bg-slate-700 text-white font-semibold rounded hover:bg-yellow-800 transition'
     data-aos="flip-right"
   >
-    <span>"Please click here to visit my GitHub profile and see my projects."</span>
+    <span>Please click here to visit my GitHub profile and see my projects.</span>
   </a>
 </div>
 
